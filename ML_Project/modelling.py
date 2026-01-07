@@ -10,7 +10,7 @@ def train_model():
     mlflow.sklearn.autolog()
 
     # Set nama eksperimen agar rapi di dashboard
-    mlflow.set_experiment("Eksperimen_Penguins_Basic")
+    # mlflow.set_experiment("Eksperimen_Penguins_Basic")
 
     # Mulai Run MLflow
     with mlflow.start_run():
